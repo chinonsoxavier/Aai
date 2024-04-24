@@ -73,7 +73,7 @@ const Hero = () => {
             <div className="flex items-start justify-start flex-ol gap-7bg-[pink] ">
               <div className="flex flex-col  items-start justify-start w-full ">
                 <p
-                  className="text-6xl medium:text-5xl text-start  font-bold leading-[90px] medium:h-[190px] h-[75%]"
+                  className="text-6xl medium:text-4xl text-start  font-bold leading-[90px] medium:h-[190px] h-[75%]"
                   ref={textAnimationRef}
                 >
                   High-Quality Way to Write your{" "}
@@ -102,7 +102,7 @@ const Hero = () => {
                   AI can create content for blogs, articles, websites, social
                   media and more.
                 </p>
-                <div className="flex items-center justify-start mt-10 gap-5 h-[10%]">
+                <div className="flex flex-wrap items-center justify-start mt-10 gap-5 h-[10%]">
                   <FancyButton text="Get Started" accent="light" borderNone />
                   <FancyButton text="Learn More" accent="dark" />
                 </div>

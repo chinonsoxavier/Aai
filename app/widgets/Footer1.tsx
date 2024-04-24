@@ -58,7 +58,7 @@ const Footer1 = () => {
           </linearGradient>
         </defs>
       </svg>
-      <p className="tablet:text-sm">
+      <p className="">
         We provide one-stop solutions for all IT items; your bliss is just a
         click away. Star Tech trusts in quality client
       </p>

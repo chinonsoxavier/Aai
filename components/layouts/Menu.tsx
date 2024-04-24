@@ -1,17 +1,28 @@
 "use client";
 import FancyButton from "@/app/widgets/FancyButton";
 import { useStore } from "../zustand/zustand";
+import { useEffect } from "react";
 
 const Menu = () => {
   const menuOpen = useStore((state: any) => state.menuOpen);
+  const handleMenuClose = useStore((state: any) => state.handleMenuClose);
 
-  const handleMenuClick = useStore((state: any) => state.handleMenuClick);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        handleMenuClose();
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <div className="w-ll w-[100vw]">
       <div
-        onClick={handleMenuClick}
-        className={`bg-interface px-6 py-8 w-full max-w-[350px] -translte-x-[100%] duration-1000 delay-100 fixed top-0 z-40 h-[100vh] text-white overflow-x-clip ${
+        className={`bg-interface px-6 py-8 w-full max-w-[350px] -translte-x-[100%] duration-1000 mobil-w-[75vw] medium:max-w-[75vw] delay-100 fixed top-0 z-40 h-[100vh] text-white overflow-x-clip ${
           menuOpen ? "-translate-x-[0]" : "-translate-x-[100%]"
         }`}
       >
@@ -58,32 +69,6 @@ const Menu = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className="hidden mobile:flex cursor-pointer">
-            <div
-              className="items-center flex justify-center flex-col gap-1 cursor-pointer relative transi transition-transform w-10  h-10 p-1 "
-              onClick={handleMenuClick}
-            >
-              {/* <div> */}
-              <span
-                className={`w-full h-[2px] bg-white duration-500 ${
-                  menuOpen &&
-                  "rotate-45 w-[80%] medium:w-[65%] absolute transition-transform"
-                }`}
-              ></span>
-              <span
-                className={`w-full h-[2px] my-[2px] bg-white duration-500 ${
-                  menuOpen && "hidden absolute transition-opacity "
-                }`}
-              ></span>
-              <span
-                className={`w-full h-[2px] bg-white duration-500 ${
-                  menuOpen &&
-                  "-rotate-45 w-[80%] medium:w-[65%] absolute transition-transform"
-                }`}
-              ></span>
-              {/* </div> */}
-            </div>
-          </div>
         </div>
         <div className="py-3 border-b border-[rgba(255,255,255,0.12)]">
           <p className="text-lg hover:text-[#edcb88] cursor-pointer medium:text-base hover:translate-x-1 duration-200">
@@ -115,8 +100,8 @@ const Menu = () => {
             Contact
           </p>
         </div>
-        <div className="flex items-center justify-start my-5 gap-8">
-          <p className="hf tablet:block border-b border-b-[white] cursor-pointer text-base">
+        <div className="flex flex-wrap items-center justify-start my-5 gap-8">
+          <p className="tablet:block border-b border-b-[white] cursor-pointer text-base">
             Login
           </p>
           <FancyButton accent="dark" text="SignUp" />

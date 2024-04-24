@@ -5,5 +5,6 @@ export const useStore = create((set)=>({
     testing:'false',
     // handleMenuClick:()=>set({menuOpen:(current:boolean)=>!current}),
     handleMenuClick:()=>set((state:any)=>({menuOpen:!state.menuOpen})),
+    handleMenuClose:()=>set((state:any)=>({menuOpen:false})),
 
 }))

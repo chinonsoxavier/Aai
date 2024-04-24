@@ -4,17 +4,17 @@ import React from "react";
 
 const Clients = () => {
   return (
-    <div className="w-full flex items-center justify-center  flex-col text-white ">
+    <div className="w-full flex items-center justify-center flex-col text-white ">
       <div className="flex items-center justify-center">
-        <p className="font-bold tablet:text-center text-2xl lg:text-5xl sm:text-4xl ">
+        <p className="font-bold tablet:text-center text-3xl lg:text-5xl sm:text-4xl ">
           Meet our Happy Clients
         </p>
       </div>
       <div className=" items-end justify-end tablet:px-5 ">
         <div className="fex inline-flex items-start justify-start">
-          <div className="flex items-start justify-start flex-wrap  w-[] gap-4 mt-10 px-4">
+          <div className="flex items-start justify-start flex-wrap gap-4 mt-10 px-4">
             <div
-              className="rounded-t-lg pb-[4px] w-[300px] h-fulmin-w- l"
+              className="rounded-t-lg pb-[4px] flex-1"
               style={{
                 background: "linear-gradient(137deg, #80fcf0 0%, #ac5dfa 100%)",
               }}
@@ -116,7 +116,7 @@ const Clients = () => {
               </div>
             </div>
             <div
-              className="min-w- rounded-t-lg pb-[4px] w-[300px] h-full"
+              className="min-w- rounded-t-lg pb-[4px] flex-1 h-full"
               style={{
                 background: "linear-gradient(137deg, #80fcf0 0%, #ac5dfa 100%)",
               }}
@@ -218,7 +218,7 @@ const Clients = () => {
               </div>
             </div>
             <div
-              className="min-w- rounded-t-lg pb-[4px] w-[300px] h-full"
+              className="rounded-t-lg pb-[4px] flex-1 h-full"
               style={{
                 background: "linear-gradient(137deg, #80fcf0 0%, #ac5dfa 100%)",
               }}
