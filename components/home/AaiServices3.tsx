@@ -457,7 +457,7 @@ const AaiServices3 = () => {
           </svg>
         </div>
         <div className="flex items-start justify-between flex-col gap-5 flex-1">
-          <h2 className="text-2xl lg:text-5xl sm:text-4xl font-bold leading-[60px]">
+          <h2 className="text-2xl lg:text-5xl sm:text-4xl font-bold leading-[60px] text-center mobile:leading-8">
             Instruct to our AI and generate copy{" "}
           </h2>
           <p className="t text-lg large:text-sm">

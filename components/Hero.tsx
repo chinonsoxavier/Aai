@@ -102,7 +102,7 @@ const Hero = () => {
                   AI can create content for blogs, articles, websites, social
                   media and more.
                 </p>
-                <div className="flex flex-wrap items-center justify-start mt-10 gap-5 h-[10%]">
+                <div className="flex items-center justify-start mt-10 gap-5 h-[10%]">
                   <FancyButton text="Get Started" accent="light" borderNone />
                   <FancyButton text="Learn More" accent="dark" />
                 </div>

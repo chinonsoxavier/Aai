@@ -434,13 +434,11 @@ const AaiServices2 = () => {
           </svg>
         </div>
         <div className="flex items-start justify-between flex-col gap-5 flex-1">
-          <h2 className="font-bold leading-[60px] text-2xl lg:text-5xl sm:text-4xl">
-            Instruct to our AI and generate copy{" "}
+          <h2 className="font-bold leading-[60px] text-2xl lg:text-5xl sm:text-4xl text-center mobile:leading-8">
+            Write Blog Posts,Stories,& Even Books
           </h2>
           <p className="t text-lg large:text-sm">
-            Give our AI a few descriptions and we'll automatically create blog
-            articles, product descriptions and more for you within just few
-            second.
+           Just let me know the topics or genre you have in mind,and i`ll assist you in creating engaging content.Feel free to provide any specific instructions or ideas you`d like me to incorporate.
           </p>
           <div className="flex items-start justify-between flex-col gap-4 ">
             <span className="flex ">
@@ -470,8 +468,7 @@ const AaiServices2 = () => {
                 </svg>
               </span>
               <span className="whitespace- large:text-sm">
-                Entering & Leaving From Country{" "}
-              </span>
+The Ai-generated text is always fresh and relevant.              </span>
             </span>
             <span className="flex">
               <span className="mr-2">
@@ -500,8 +497,7 @@ const AaiServices2 = () => {
                 </svg>
               </span>
               <span className="whitespace- large:text-sm">
-                Country Citizenship{" "}
-              </span>
+The Ai-generated text is guaranteed to be unique and original.              </span>
             </span>
             <span className="flex">
               <span className="mr-2">
@@ -530,8 +526,7 @@ const AaiServices2 = () => {
                 </svg>
               </span>
               <span className="whitespace- large:text-sm">
-                Settling In Country{" "}
-              </span>
+The Ai-generated text is SEO-friendly and authoritative.          </span>
             </span>
             <FancyButton text="Learn More" accent="dark" />
           </div>
