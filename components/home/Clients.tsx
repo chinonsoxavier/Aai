@@ -1,7 +1,6 @@
 import { avatar1 } from "@/constants/exports";
 import Image from "next/image";
 import React from "react";
-import ClientsSlider from "./ClientsSlider";
 
 const Clients = () => {
   return (
@@ -11,7 +10,6 @@ const Clients = () => {
           Meet our Happy Clients
         </p>
       </div>
-      {/* <ClientsSlider/> */}
       <div className=" items-end justify-end tablet:px-5 ">
         <div className="fex inline-flex items-start justify-start">
           <div className="flex items-start justify-start flex-wrap  w-[] gap-4 mt-10 px-4">
