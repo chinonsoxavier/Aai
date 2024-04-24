@@ -1,0 +1,157 @@
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueMedium.otf");
+     font-weight: normal;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueBlack.otf");
+     font-weight: 900;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueBlackItalic.otf");
+     font-weight: 900;
+     font-style: italic;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueHeavy.otf");
+     font-weight: 800;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueHeavyItalic.otf");
+     font-weight: 800;
+     font-style: italic;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueBold.otf");
+     font-weight: 700;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueBoldItalic.otf");
+     font-weight: 700;
+     font-style: italic;
+ }
+
+ /* @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/");
+     font-weight: 600;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/Helvitica/Poppins-SemiBoldItalic.otf");
+     font-weight: 600;
+     font-style: italic;
+ } */
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueMedium.otf");
+     font-weight: 500;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueMediumItalic.otf");
+     font-weight: 500;
+     font-style: italic;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueLight.otf");
+     font-weight: 300;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueLightItalic.otf");
+     font-weight: 300;
+     font-style: italic;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueUltraLight.otf");
+     font-weight: 200;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueUltraLightItalic.otf");
+     font-weight: 200;
+     font-style: italic;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueThin.otf");
+     font-weight: 100;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueThinItalic.otf");
+     font-weight: 100;
+     font-style: italic;
+ }
+
+ @font-face {
+     font-family: "Helvitica";
+     src: url("./../utils/helvetica-neue-5/HelveticaNeueItalic.ttf");
+     font-weight: normal;
+     font-style: italic;
+ }
+
+
+ @font-face{
+    font-family: "Sora";
+    src: url(".././utils/sora/fonts/otf/Sora-Bold.otf");
+    font-weight: bold;
+ }
+ @font-face{
+    font-family: "Sora";
+    src: url(".././utils/sora/fonts/otf/Sora-ExtraBold.otf");
+    font-weight: bolder;
+ }
+ @font-face{
+    font-family: "Sora";
+    src: url(".././utils/sora/fonts/otf/Sora-ExtraLight.otf");
+    font-weight: lighter;
+ }
+ @font-face{
+    font-family: "Sora";
+    src: url(".././utils/sora/fonts/otf/Sora-Light.otf");
+    font-weight:300;
+ }
+ @font-face{
+    font-family: "Sora";
+    src: url(".././utils/sora/fonts/otf/Sora-Regular.otf");
+    font-weight: normal;
+ }
+ @font-face{
+    font-family: "Sora";
+    src: url(".././utils/sora/fonts/otf/Sora-SemiBold.otf");
+    font-weight: 600;
+ }
+ @font-face{
+    font-family: "Sora";
+    src: url(".././utils/sora/fonts/otf/Sora-Thin.otf");
+    font-weight: 100;
+ }
+
+ * {
+     font-family: "Sora";
+ }
