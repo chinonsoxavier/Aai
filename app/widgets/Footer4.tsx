@@ -13,7 +13,7 @@ const Footer4 = () => {
           : "translate-y-[40%] opacity-0"
       } flex-1 leading-[45px] delay-[450ms] duration-[1500ms] max-w-[220px]`}
     >
-      <p className="text-xl font-semibold">Community</p>
+      <p className="text-xl font-semibold mb-2">Community</p>
       <p className="hover:text-[#edcb88] cursor-pointer hover:translate-x-3 duration-500 tablet:text-sm">
         Global Partners
       </p>

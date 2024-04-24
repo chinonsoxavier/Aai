@@ -20,15 +20,18 @@ const Questions = () => {
   return (
     <div className="w-full flex items-center justify-center text-white ">
       <div className="flex max-width items-center tablet:items-center justify-between gap-20 tablet:flex-col tablet:gap-8  ">
-        <div ref={ref} className= {`${
+        <div
+          ref={ref}
+          className={`${
             inView
               ? "translate-x-0 backdrop:blur-md opacity-100"
               : "-translate-x-[100%] opacity-0"
-          } flex items-start flex-col justify-start flex-1 gap-5 tablet:justify-center tablet:items-center duration-[1500ms] `}>
+          } flex items-start flex-col justify-start flex-1 gap-5 tablet:justify-center tablet:items-center duration-[1500ms] `}
+        >
           <p className="text-2xl md:text-3xl lg:text-5xl font-bold medium:text-3xl tablet:text-center">
             Any{" "}
             <span
-              className="bg-clip-text text-transparent "
+              className="bg-clip-text text-transparent background_clip"
               style={{
                 background:
                   "linear-gradient(137deg, #80fcf0 0%, #efce85 52.6%, #ac5dfa 100%)",
@@ -46,10 +49,7 @@ const Questions = () => {
 
           <div className="flex flex-col items-center justify-between flex-1"></div>
         </div>
-        <div
-          className={` flex flex-col items-center  justify-center flex-1`}
-        
-        >
+        <div className={` flex flex-col items-center  justify-center flex-1`}>
           {/* <Accordion>
             <AccordionItem>
               <AccordionItemHeading>

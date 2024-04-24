@@ -7,10 +7,9 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 
 const Footer = () => {
-
-     const { ref, inView, entry } = useInView({
-       threshold: 0,
-     });
+  const { ref, inView, entry } = useInView({
+    threshold: 0,
+  });
 
   return (
     <div className="w-full flex items-center justify-center text-white bg--500 ">
@@ -131,16 +130,18 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-start justify-between w-full tablet:flex-wrap tablet:gap-5 py-16 border-b border-b-[rgba(255,255,255,0.12)] gap-10">
+        <div className="flex items-start justify-between w-full tablet:flex-wrap tablet:gap-5 py-16 border-b border-b-[rgba(255,255,255,0.12)] gap-10 medium:flex-col">
           <Footer1 />
           <Footer2 />
           <Footer3 />
           <Footer4 />
         </div>
-        <div className="flex items-center justify-center h-full py-10 tablet:py-5 tablet:text-sm">
-          Copyright 2024{" "}
+        <div className="flex items-center justify-center h-full py-10 tablet:py-5 tablet:text-sm flex-wrap">
+          <p className="whitespace-nowrap" >
+          Copyright 2024
+          </p>
           <i
-            className="bg-clip-text text-transparent px-[2px]"
+            className="bg-clip-text whitespace-normal background_clip text-transparent px-[4px]"
             style={{
               background:
                 "linear-gradient(137deg, #80fcf0 0%, #efce85 52.6%, #ac5dfa 100%)",
@@ -148,8 +149,10 @@ const Footer = () => {
             }}
           >
             @Dream Imp.
-          </i>{" "}
+          </i>
+          <p className="whitespace-nowrap" >
           Chinonso Xavier
+          </p>
         </div>
       </div>
     </div>

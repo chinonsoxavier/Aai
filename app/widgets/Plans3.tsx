@@ -20,7 +20,7 @@ const Plans3 = () => {
     >
       <div className="flex p-8 gap-4 tablet:flex-col tablet:items-start tablet:p-3 items-center justify-between rounded-lg bg-primary hover:bg-[#111629] duration-500">
         <div className="flex flex-col items-start justify-start flex-1">
-          <p className="font-bold text-xl large:text-lg">Enterprise</p>
+          <p className="font-bold text-xl">Enterprise</p>
           <p className="large:text-sm">
             Assign & track your team’s progress visually.
           </p>

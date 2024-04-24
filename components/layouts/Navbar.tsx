@@ -96,7 +96,7 @@ const Navbar = () => {
         </div> */}
 
       </div>
-        <div className="hidden z-50 z999] bg-[red] tablet:flex cursor-pointer">
+        <div className="hidden tablet:flex cursor-pointer">
           <div
             className="items-center flex justify-center flex-col gap-1 cursor-pointer relative transi transition-transform w-10  h-10 p-1 "
             onClick={handleMenuClick}

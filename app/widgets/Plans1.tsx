@@ -20,7 +20,7 @@ const Plans1 = () => {
     >
       <div className="flex p-8 tablet:p-3 gap-4 tablet:flex-col base:gap-1 tablet:items-start items-center justify-between rounded-lg bg-primary hover:bg-[#111629] duration-500">
         <div className="flex flex-col items-start justify-start flex-1  w-full">
-          <p className="font-bold text-xl large:text-lg">Stater</p>
+          <p className="font-bold text-xl">Stater</p>
           <p className="large:text-sm">
             For most businesses that want to optimize web queries
           </p>

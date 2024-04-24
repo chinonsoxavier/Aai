@@ -10,7 +10,7 @@ const FancyButton = ({text,className,borderNone,accent}:FancyButtonInterface) =>
       }}
     >
       <button
-        className={`${className} ${accent==='light' ? "bg-white text-primary": "bg-primary"} flex items-center justify-center z-10 medium:py-2 medium:px-5 medium:text-sm duration-700 rounded-full px-8 py-3 bg-rimary text-base`}
+        className={`${className} ${accent==='light' ? "bg-white text-primary": "bg-primary"} flex items-center justify-center z-10 medium:text-[15px] duration-700 rounded-full px-8 py-3 bg-rimary text-base`}
       >
         <p className="z-10 whitespace-nowrap">{text}</p>
       </button>

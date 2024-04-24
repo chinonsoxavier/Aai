@@ -93,6 +93,13 @@
   }
 }
 
+.background_clip{
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background:linear-gradient(137deg, #80fcf0 0%, #efce85 52.6%, #ac5dfa 100%),
+}
+
 /* @media (min-width: 768px) { */
 @media (min-width: 880px) {
   .max-width {
