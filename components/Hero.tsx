@@ -102,9 +102,18 @@ const Hero = () => {
                   AI can create content for blogs, articles, websites, social
                   media and more.
                 </p>
-                <div className="flex items-center justify-start mt-10 gap-5 h-[10%]">
-                  <FancyButton text="Get Started" accent="light" borderNone />
-                  <FancyButton text="Learn More" accent="dark" />
+                <div className="flex flex-wrap items-center justify-start mt-10 gap-5 h-[10%]">
+                  <FancyButton
+                    className="flex-1 min-w-[200px]"
+                    text="Get Started"
+                    accent="light"
+                    borderNone
+                  />
+                  <FancyButton
+                    className="flex-1 min-w-[200px]"
+                    text="Learn More"
+                    accent="dark"
+                  />
                 </div>
               </div>
               {/* <div className="flex flex-1 bg-[green]">f</div> */}
@@ -131,7 +140,9 @@ const Hero = () => {
           <div
             ref={ref}
             className={`${
-              inView ? "translate-x-0 backdrop:blur-md opacity-100" : "translate-x-96 opacity-0"
+              inView
+                ? "translate-x-0 backdrop:blur-md opacity-100"
+                : "translate-x-96 opacity-0"
             } duration-[1500ms] translate--[100%] flex items-center justify-center opacity- Xlarge:hidden max-h-[320px] max-w-full w-ful ma absolute -right-44 `}
           >
             <Image
