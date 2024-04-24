@@ -434,7 +434,7 @@ const AaiServices2 = () => {
           </svg>
         </div>
         <div className="flex items-start justify-between flex-col gap-5 flex-1">
-          <h2 className="font-bold leading-[60px] text-2xl lg:text-5xl sm:text-4xl text-center mobile:leading-8">
+          <h2 className="font-bold leading-[60px] text-3xl lg:text-5xl sm:text-4xl text-center mobile:leading-8">
             Write Blog Posts,Stories,& Even Books
           </h2>
           <p className="t text-lg large:text-sm">

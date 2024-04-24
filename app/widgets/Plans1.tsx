@@ -18,7 +18,7 @@ const Plans1 = () => {
           : "translate-y-[40%] opacity-0"
       } p-[1px] duration-[1500ms] rounded-lg w-full`}
     >
-      <div className="flex p-8 tablet:p-3 gap-4 tablet:flex-col base:gap-1 tablet:items-start items-center justify-between rounded-lg bg-primary hover:bg-[#111629] duration-500">
+      <div className="flex p-8 tablet:p-5 gap-5 tablet:flex-col base:gap-1 tablet:items-start items-center justify-between rounded-lg bg-primary hover:bg-[#111629] duration-500">
         <div className="flex flex-col items-start justify-start flex-1  w-full">
           <p className="font-bold text-xl">Stater</p>
           <p className="large:text-sm">
