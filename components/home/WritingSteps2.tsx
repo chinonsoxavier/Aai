@@ -5,6 +5,8 @@ import { useInView } from "react-intersection-observer";
 const WritingSteps2 = () => {
   const { ref, inView } = useInView({
     threshold: 0,
+    triggerOnce: true,
+    delay: 100,
   });
   // const []
   return (

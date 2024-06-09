@@ -21,14 +21,14 @@ import Questions from "@/components/home/Questions";
 import FuturePlans from "@/components/home/FuturePlans";
 import WritingSteps2 from "@/components/home/WritingSteps2";
 import Menu from "@/components/layouts/Menu";
+import { useStore } from "@/components/zustand/zustand";
 
 export default function Home() {
+
   return (
     <main className="w-full overflow-hidden">
       <Layout>
-        <section>
-          <Menu/>
-        </section>
+      
         <section
           className="w-full h-full"
           style={{

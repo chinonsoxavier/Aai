@@ -6,6 +6,8 @@ import { useInView } from "react-intersection-observer";
 const AaiServices2 = () => {
   const { ref, inView, entry } = useInView({
     threshold: 0,
+    triggerOnce: true,
+    delay: 100,
   });
 
   return (

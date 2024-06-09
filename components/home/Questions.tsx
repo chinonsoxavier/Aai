@@ -14,6 +14,8 @@ import { useInView } from "react-intersection-observer";
 const Questions = () => {
    const { ref, inView, entry } = useInView({
      threshold: 0,
+     triggerOnce: true,
+     delay: 100,
    });
     const [accordion,setAccordion]=useState(0);
 
@@ -84,7 +86,7 @@ const Questions = () => {
                 width="16"
                 height="16"
                 fill="white"
-                className="bi bi-chevron-down font-black"
+                className="min-w-[20px] bi bi-chevron-down font-black"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -120,7 +122,7 @@ const Questions = () => {
                 width="16"
                 height="16"
                 fill="white"
-                className="bi bi-chevron-down font-black"
+                className="min-w-[20px] bi bi-chevron-down font-black"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -156,7 +158,7 @@ const Questions = () => {
                 width="16"
                 height="16"
                 fill="white"
-                className="bi bi-chevron-down font-black"
+                className="min-w-[20px] bi bi-chevron-down font-black"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -192,7 +194,7 @@ const Questions = () => {
                 width="16"
                 height="16"
                 fill="white"
-                className="bi bi-chevron-down font-black"
+                className="min-w-[20px] bi bi-chevron-down font-black"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -228,7 +230,7 @@ const Questions = () => {
                 width="16"
                 height="16"
                 fill="white"
-                className="bi bi-chevron-down font-black"
+                className="min-w-[20px] bi bi-chevron-down font-black"
                 viewBox="0 0 16 16"
               >
                 <path

@@ -148,11 +148,8 @@ const Footer = () => {
               backgroundClip: "text",
             }}
           >
-            @Dream Imp.
+            @DreamImp.
           </i>
-          <p className="whitespace-nowrap" >
-          Chinonso Xavier
-          </p>
         </div>
       </div>
     </div>

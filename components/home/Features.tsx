@@ -7,7 +7,6 @@ import Features4 from "@/app/widgets/Features4";
 import Features5 from "@/app/widgets/Features5";
 import Features6 from "@/app/widgets/Features6";
 import React, { useEffect, useRef } from "react";
-import { useInView } from "react-intersection-observer";
 
 const Features = () => {
   return (

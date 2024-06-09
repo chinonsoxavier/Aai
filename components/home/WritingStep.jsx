@@ -246,6 +246,8 @@ const WritingStep = () => {
 
    const { ref, inView, entry } = useInView({
      threshold: 0,
+     triggerOnce: true,
+     delay: 100,
    });
 
   return (

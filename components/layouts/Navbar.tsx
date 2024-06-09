@@ -9,6 +9,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-priary flex items-center justify-between py-5  text-white ">
+      
       <div className="flex items-start justify-start bg-[re]">
         <svg
           width="85"
