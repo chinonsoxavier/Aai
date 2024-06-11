@@ -2,7 +2,6 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Sidebar from './Sidebar';
 import { useStore } from '../zustand/zustand';
 import { footerBg } from '@/constants/exports';
 
