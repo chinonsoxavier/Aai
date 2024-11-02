@@ -20,7 +20,7 @@ const Menu = () => {
   }, []);
 
   return (
-    <div className="w-ll w-[100vw]">
+    <div className="w-[100vh] w-[100vw]">
       <div
         className={`bg-interface px-6 py-8 w-full max-w-[350px] -translte-x-[100%] duration-1000 mobil-w-[75vw] medium:max-w-[75vw] delay-100 fixed top-0 z-40 h-[100vh] text-white overflow-x-clip ${
           menuOpen ? "-translate-x-[0]" : "-translate-x-[100%]"
