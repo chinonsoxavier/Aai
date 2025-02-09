@@ -11,8 +11,8 @@ import { useInView } from "react-intersection-observer";
      <div
        ref={ref}
        className={`${
-         inView && "translate-y-[1%] backdrop:blur-md opacity-100"
-       } min-w-[260px] translate-y-[40%] opacity-0 delay-300 duration-[1500ms] flex items-center justify-center gradient p-[1px] h-[420px] tablet:h-[320px] max-h-[auto] rounded-xl flex-1`}
+         inView && "translate-y-[0] backdrop:blur-md opacity-100"
+       } min-w-[260px] translate-y-[80px] opacity-0 delay-300 duration-[1500ms] flex items-center justify-center gradient p-[1px] h-[420px] tablet:h-[320px] max-h-[auto] rounded-xl flex-1`}
        style={{
          background: "linear-gradient(137deg, #80fcf0 0%, #ac5dfa 100%)",
        }}
