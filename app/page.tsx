@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <main className="w-full overflow-hidden">
       <Layout>
-      
+      <Menu/>
         <section
           className="w-full h-full"
           style={{
